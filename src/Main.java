@@ -39,7 +39,7 @@ public class Main {
         int population = 12_000_000;
         for (int year = currentYear; year < currentYear + 10; year++){
             population+=(population/1000)*((fertility-mortality));
-            System.out.println("f" + year + "h" + population);
+            System.out.println("Год " + year + " численность населения составляет " + population);
         }
 
     }
