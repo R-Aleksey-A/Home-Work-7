@@ -30,5 +30,17 @@ public class Main {
         for (; x > 0; x--) {
             System.out.print(x + " ");
         }
+        System.out.println();
+        System.out.println("Задание-3");
+
+        int fertility = 17;
+        int mortality = 8;
+        int currentYear = 2024;
+        int population = 12_000_000;
+        for (int year = currentYear; year < currentYear + 10; year++){
+            population+=(population/1000)*((fertility-mortality));
+            System.out.println("f" + year + "h" + population);
+        }
+
     }
 }
