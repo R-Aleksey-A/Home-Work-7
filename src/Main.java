@@ -14,9 +14,9 @@ public class Main {
             moneyMonthly = moneyMonthly + moneyMonthly / 100;
             result = result + moneyMonthly;
             month++;
-
+            System.out.println("Месяц " + month + " - сумма накоплений равна " + result + " рублей");
         }
-        System.out.println("Месяц " + month + " - сумма накоплений равна " + result + " рублей");
+
 
         System.out.println("Задание-2");
 
