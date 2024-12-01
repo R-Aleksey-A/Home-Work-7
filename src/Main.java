@@ -37,10 +37,23 @@ public class Main {
         int mortality = 8;
         int currentYear = 2024;
         int population = 12_000_000;
-        for (int year = currentYear; year < currentYear + 10; year++){
-            population+=(population/1000)*((fertility-mortality));
+        for (int year = currentYear; year < currentYear + 10; year++) {
+            population += (population / 1000) * ((fertility - mortality));
             System.out.println("Год " + year + " численность населения составляет " + population);
         }
+        System.out.println();
+        System.out.println("Задание-4");
+        int money = 15000;
+        int interestRateOfDeposit = 7;
+        int accumulationAmount = 12_000_000;
+        int year = 0;
+        while (money <= accumulationAmount) {
+            money+=money * interestRateOfDeposit/100;
+            year++;
+            System.out.println("Накопление в " + year + " месяце составит " + money
+            );
+        }
+
 
     }
 }
