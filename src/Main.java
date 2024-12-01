@@ -65,9 +65,18 @@ public class Main {
             if (year1 % 6 == 0) {
                 System.out.println("Накопление в " + year1 + " месяце составит " + money1);
             }
-
         }
-
+        System.out.println("Задание-6");
+        int money2 = 15000;
+        int interestRateOfDeposit2 = 7;
+        int year2 = 0;
+        while (year2 < 108) {
+            money2 += money2 * interestRateOfDeposit2 / 100;
+            year2++;
+            if (year2 % 6 == 0) {
+                System.out.println("Накопление в " + year2 + " месяце составит " + money2);
+            }
+        }
 
     }
 }
