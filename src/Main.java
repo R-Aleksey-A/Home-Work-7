@@ -77,6 +77,12 @@ public class Main {
                 System.out.println("Накопление в " + year2 + " месяце составит " + money2);
             }
         }
+        System.out.println("Задание-7");
+        int day = 7;
+        do {
+            System.out.println("Сегодня пятница," + day + "-е число. Необходимо подготовить отчет.");
+            day = day + 7;
+        } while (day <=31);
 
     }
 }
