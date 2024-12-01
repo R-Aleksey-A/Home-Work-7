@@ -48,10 +48,24 @@ public class Main {
         int accumulationAmount = 12_000_000;
         int year = 0;
         while (money <= accumulationAmount) {
-            money+=money * interestRateOfDeposit/100;
+            money += money * interestRateOfDeposit / 100;
             year++;
             System.out.println("Накопление в " + year + " месяце составит " + money
             );
+        }
+        System.out.println("Задание-5");
+        int money1 = 15000;
+        int interestRateOfDeposit1 = 7;
+        int accumulationAmount1 = 12_000_000;
+        int year1 = 0;
+        while (money1 <= accumulationAmount1) {
+            money1 += money1 * interestRateOfDeposit1 / 100;
+
+            year1++;
+            if (year1 % 6 == 0) {
+                System.out.println("Накопление в " + year1 + " месяце составит " + money1);
+            }
+
         }
 
 
