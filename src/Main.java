@@ -82,7 +82,17 @@ public class Main {
         do {
             System.out.println("Сегодня пятница," + day + "-е число. Необходимо подготовить отчет.");
             day = day + 7;
-        } while (day <=31);
+        } while (day <= 31);
+
+        System.out.println("Задание-8");
+        int year200 = 1824;
+        int year100 = 2124;
+        while (year200 < year100) {
+            if (year200 % 79 == 0) {
+                System.out.println(year200);
+            }
+            year200++;
+        }
 
     }
 }
