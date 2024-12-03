@@ -11,7 +11,6 @@ public class Main {
         int result = 0;
         int month = 0;
         while (result < accumulation) {
-            moneyMonthly = moneyMonthly + moneyMonthly / 100;
             result = result + moneyMonthly;
             month++;
             System.out.println("Месяц " + month + " - сумма накоплений равна " + result + " рублей");
